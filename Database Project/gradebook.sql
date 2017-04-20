@@ -1,6 +1,7 @@
 %load_ext sql
-%%sql sqlite:///database_1.db
+%sql sqlite:///database_1.db
 
+%%sql
 drop table if exists STUDENT;
 
 CREATE TABLE STUDENT (
